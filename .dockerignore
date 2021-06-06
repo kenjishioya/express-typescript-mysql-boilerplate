@@ -1,0 +1,8 @@
+db
+.vscode
+node_modules
+bin
+.env.example
+.gitignore
+LICENSE
+README.md

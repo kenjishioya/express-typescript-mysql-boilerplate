@@ -1,0 +1,25 @@
+# for this app
+bin/*
+!bin/.gitkeep
+db/mysql/logs/*
+!db/mysql/logs/.gitkeep 
+db/mysql/store/*
+!db/mysql/store/.gitkeep
+src/data/*
+!src/data/.gitkeep
+logs/*
+!logs/.gitkeep
+yarn-error.log
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+.vscode
