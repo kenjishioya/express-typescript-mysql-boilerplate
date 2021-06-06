@@ -16,6 +16,9 @@ Typescriptを使用し、MySQLに接続します。
 # サンプルコードの起動
 DockerでMySQL環境を構築し、サンプルデータ([KaggleのTitanic: Machine Learning from Disaster](https://www.kaggle.com/rashigoel/titanic-machine-learning-from-disaster))からテーブルを作成し、データを検索するAPIを起動します。
 
+### ★ 環境設定
+.env.exampleファイルをコピーして.envファイルをルート以下においてください。
+
 ### ★ MySQL環境構築
 1. DockerでMySQL環境作成  
 ```
